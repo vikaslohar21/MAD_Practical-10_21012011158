@@ -9,7 +9,7 @@
         android:id="@+id/card1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="30dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/profile1"
+                android:id="@+id/profile"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_margin="20dp"
@@ -37,7 +37,7 @@
                 android:layout_margin="20dp"
                 android:text=" Vikas Lohar "
                 android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@id/profile1"
+                app:layout_constraintStart_toEndOf="@id/profile"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:text=" +917030700140 "
-                app:layout_constraintStart_toEndOf="@id/profile1"
+                app:layout_constraintStart_toEndOf="@id/profile"
                 app:layout_constraintTop_toBottomOf="@id/person_name" />
 
             <TextView
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:text=" vikaslohar2122@gmail.com "
-                app:layout_constraintStart_toEndOf="@id/profile1"
+                app:layout_constraintStart_toEndOf="@id/profile"
                 app:layout_constraintTop_toBottomOf="@id/phn_no" />
 
 
@@ -65,9 +65,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginStart="20dp"
-                android:text=" 21, hanuman chowk,Pali,\n Rajasthan \n "
+                android:text=" 21, hanuman chowk,Pali,\n Rajasthan "
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@id/profile1"
+                app:layout_constraintStart_toEndOf="@id/profile"
                 app:layout_constraintTop_toBottomOf="@id/email" />
 
             <com.google.android.material.button.MaterialButton
